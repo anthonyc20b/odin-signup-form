@@ -27,7 +27,7 @@
 
             <div class="form-content">
                 <h2>Let's do this!</h2>
-                <form action="" method="post">
+                <form action="" method="post" id="signup-form">
                     <label for="firstname">First Name</label>
                     <input type="text" name="user_firstname" id="firstname" required>
 
@@ -41,16 +41,15 @@
                     <input type="tel" name="user_phone_number" id="phone" required pattern="[0-9]{10}">
 
                     <label for="password">Password</label>
-                    <input type="password" name="user_password" id="password required">
+                    <input type="password" name="user_password" id="password" required>
 
                     <label for="password-confirm">Confirm Password</label>
                     <input type="password" name="user_password_confirm" id="password-confirm" required>
-
-                    <div class="submission">
-                        <button type="submit">Create Account</button>
-                        <p>Already have an account? <a href="">Log In</a></p>
-                    </div>
                 </form>
+            </div>
+            <div class="submission">
+                <button type="submit" form="signup-form">Create Account</button>
+                <p>Already have an account? <a href="">Log In</a></p>
             </div>
         </div>
     </div>

@@ -13,6 +13,8 @@ body {
 
 .signup-body {
     display: flex;
+    max-width: 1800px;
+    margin: auto;
     height: 100vh;
 }
 
@@ -23,7 +25,6 @@ body {
     background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 350px;
 }
 
 .logo {
@@ -63,7 +64,6 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #F9FAFB;
-    margin-right: 350px;
 }
 
 a {
@@ -71,10 +71,37 @@ a {
 }
 
 .header {
+    flex: 1;
     font-size: 25px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 150px;
 }
 
 .form-content {
+    flex: 1;
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submission {
+    flex: 1;
+    margin: 30px 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submission button {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 60px 20px 60px;
+    background-color: #596D48;
+    border: none;
+    border-radius: 10px;
+}
+
+.submission a {
+    color: #596D48;
 }
