@@ -23,6 +23,7 @@ body {
     background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 350px;
 }
 
 .logo {
@@ -59,8 +60,21 @@ img {
 
 .main-content {
     flex: 2; /* Used to split up the page to respective sections for side bar and main content, static design */
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAFB;
+    margin-right: 350px;
 }
 
 a {
     text-decoration: none;
+}
+
+.header {
+    font-size: 25px;
+}
+
+.form-content {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
