@@ -82,6 +82,34 @@ a {
     flex: 1;
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.form-row {
+    display: flex;
+    font-size: 18px;
+    gap: 80px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input[type="password"]:user-invalid {
+    border: 2px solid red;
+}
+
+.input-pair {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 25%;
 }
 
 .submission {
