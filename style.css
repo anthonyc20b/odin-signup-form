@@ -45,7 +45,6 @@ body {
     margin-top: 720px;
     color: white;
     text-decoration: underline;
-    /* Used absolute position as this is a static design */
 }
 
 /* Removes default margin on p element to help with spacing in sidebar */
@@ -55,7 +54,7 @@ body {
 }
 
 /* Used to set the logo image to a specific height */
-img {
+.logo img {
     height: 150px;
     width: auto;
 }
