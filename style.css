@@ -97,7 +97,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="password"] {
-    border: 1px solid #E5E7EB;
+    border: 2px solid #E5E7EB;
     border-radius: 5px;
     padding: 10px;
 }
@@ -117,6 +117,10 @@ input:focus{
     flex-direction: column;
     margin-bottom: 20px;
     width: 25%;
+}
+
+.input-pair label {
+    margin-bottom: 3px;
 }
 
 .submission {
