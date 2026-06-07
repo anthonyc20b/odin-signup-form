@@ -105,6 +105,12 @@ input[type="password"]:user-invalid {
     border: 2px solid red;
 }
 
+input:focus{
+    outline: none; /* Remove default browser styling for border radius */
+    border-color: blue;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
 .input-pair {
     display: flex;
     flex-direction: column;
