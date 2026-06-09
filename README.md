@@ -51,8 +51,7 @@ The layout, structure, and color palette are a close match. The one intentional 
 
 ## What I learned
 
-Flexbox clicked for me on this project. I'd used it before but this was the first time I felt like I was actually controlling the layout rather than guessing until it looked right. I took the extra time to think ahead before writing any lines of code. Scaffolding out the project, how each section
-needed to be structured, and how I would setup each container for efficient styling. 
+Flexbox clicked for me on this project. I'd used it before but this was the first time I felt like I was actually controlling the layout rather than guessing until it looked right. Scaffolding out the project, how each section needed to be structured, and how I would setup each container for efficient styling. 
 
 The bigger surprise was how much you can do with CSS pseudo-classes. I went in assuming form validation meant writing JavaScript — turns out `:invalid` and `:focus` cover a lot of ground on their own. That was a useful thing to learn before reaching for a script.
 
