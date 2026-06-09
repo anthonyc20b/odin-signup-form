@@ -6,9 +6,15 @@ A sign-up landing page built with HTML and CSS for The Odin Project's Intermedia
 
 ---
 
-## Screenshot
+## Screenshot Reference
 
 ![Sign Up Form Screenshot](./images/sign-up-form.png)
+
+---
+
+## Screenshot Product
+
+![Sign Up Form Screenshot](./images/Screenshot%202026-06-07%20at%204.58.11 PM.png)
 
 ---
 
