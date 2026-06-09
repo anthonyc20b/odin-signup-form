@@ -145,6 +145,7 @@ input:focus{
     background-color: #596D48;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .submission a {
