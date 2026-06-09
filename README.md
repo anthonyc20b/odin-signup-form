@@ -2,7 +2,7 @@
 
 A sign-up landing page built with HTML and CSS for The Odin Project's Intermediate HTML and CSS curriculum.
 
-**[Live Demo](YOUR_GITHUB_PAGES_LINK_HERE)**
+**[Live Demo](https://anthonyc20b.github.io/odin-signup-form/)**
 
 ---
 
@@ -12,7 +12,7 @@ A sign-up landing page built with HTML and CSS for The Odin Project's Intermedia
 
 ---
 
-## Screenshot Product
+## Screenshot Final Product
 
 ![Sign Up Form Screenshot](./images/Screenshot%202026-06-07%20at%204.58.11 PM.png)
 
@@ -34,7 +34,7 @@ A sign-up landing page built with HTML and CSS for The Odin Project's Intermedia
 
 ---
 
-## How it compares to the reference design
+## Design Decisions
 
 The layout, structure, and color palette are a close match. The one intentional difference is label casing — the reference uses all caps, but I went with sentence case since it's more in line with standard readability and accessibility practices.
 
@@ -71,7 +71,7 @@ The bigger surprise was how much you can do with CSS pseudo-classes. I went in a
 Clone the repo and open `index.html` in a browser:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/anthonyc20b/odin-signup-form.git
 ```
 
-Or just use the [live demo](YOUR_GITHUB_PAGES_LINK_HERE).
+Or just use the [live demo](https://anthonyc20b.github.io/odin-signup-form/).
